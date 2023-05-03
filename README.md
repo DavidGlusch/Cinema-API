@@ -1,4 +1,4 @@
-# CINEMA API
+св# CINEMA API
 
 REST API for cinema
 
@@ -15,7 +15,19 @@ Technologies used:
   venv\Scripts\activate (on Windows)
   source venv/bin/activate (on macOS)
   pip install -r requirements.txt
+  python manage.py migrate
+  python manage.py runserver
 ```
+
+## Setting env variables
+```shell
+POSTGRES_HOST=your_db_hostname
+POSTGRES_DB=your_db_name
+POSTGRES_USER=your_db_username
+POSTGRES_PASSWORD=your_db_user_password
+SECRET_KEY=your_secret_key
+```
+
 
 ## Run with docker:
 ```shell
