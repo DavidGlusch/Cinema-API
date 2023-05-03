@@ -1,4 +1,4 @@
-пше # CINEMA API
+# CINEMA API
 
 REST API for cinema
 
